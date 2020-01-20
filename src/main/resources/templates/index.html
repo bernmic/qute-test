@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abrechnung Jahre</title>
+</head>
+<body>
+    <h1>Jahr wählen</h1>
+    <ul>
+        {#each items}
+        <li><a href="/months?year={it}">{it}</a></li>
+        {/each}
+    </ul>
+</body>
+</html>

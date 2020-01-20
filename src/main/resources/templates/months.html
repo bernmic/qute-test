@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abrechnung {year}</title>
+</head>
+<body>
+    <h1>{year} - Monat wählen</h1>
+    <ul>
+        {#each items}
+        <li><a href="/file/year/{year}/{it}/download">{it}</a></li>
+        {/each}
+    </ul>
+</body>
+</html>
